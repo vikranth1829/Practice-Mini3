@@ -19,7 +19,7 @@ public class drag_and_drop_page {
 	private By boxa = By.cssSelector("#column-a.column");
 	private By boxb = By.cssSelector("#column-b.column");		
 	
-	public void drag_and_drop_page(WebDriver driver) {
+	public drag_and_drop_page(WebDriver driver) {
 		this.driver = driver;
 		this.wait = BaseTest.waitutil();
 	}

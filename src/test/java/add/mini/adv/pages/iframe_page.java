@@ -16,7 +16,7 @@ public class iframe_page {
 	private By iframeOuter = By.id("mce_0_ifr");
 	private By iframeInner = By.id("tinymce");
 	
-	public void iframe_Page(WebDriver driver) {
+	public iframe_page(WebDriver driver) {
 		this.driver = driver;
 		this.wait = BaseTest.waitutil();
 	}

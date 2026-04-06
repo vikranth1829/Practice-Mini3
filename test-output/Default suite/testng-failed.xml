@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="add.mini.adv.test.DragAndDropTest">
+      <class name="add.mini.adv.test.AlertTest">
         <methods>
-          <include name="dragAndDrop"/>
+          <include name="jsPromptAlertTest"/>
+          <include name="jsConfirmAlertTest"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- add.mini.adv.test.DragAndDropTest -->
+      </class> <!-- add.mini.adv.test.AlertTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

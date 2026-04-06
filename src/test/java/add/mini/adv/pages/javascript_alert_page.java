@@ -1,5 +1,6 @@
 package add.mini.adv.pages;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -7,22 +8,23 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import add.mini.adv.base.BaseTest;
 
-public class javascript_alert_page {
+public class Javascript_alert_page {
 	private WebDriver driver;
 	private WebDriverWait wait;
+	private Alert alert;
 
 	private By jsAlert = By.cssSelector("button[onclick^='jsAlert']");
 	private By jsConfirm = By.cssSelector("button[onclick^='jsConfirm']");
 	private By jsPrompt = By.cssSelector("button[onclick^='jsPrompt']");
 	private By jsResultText = By.cssSelector("p[id='result']");
 
-	public void iframe_page(WebDriver driver) {
+	public Javascript_alert_page(WebDriver driver) {
 		this.driver = driver;
 		this.wait = BaseTest.waitutil();
 	}
 
 	public void open() {
-		String baseURL = BaseTest.loadConfig("baseUrl");
+		String baseURL = BaseTest.loadConfig("jsalert");
 		driver.get(baseURL);
 	}
 
@@ -49,7 +51,15 @@ public class javascript_alert_page {
 	public void dismissAlert() {
 		driver.switchTo().alert().dismiss();
 	}
-
+	
+	public void switchToAlert() {
+		this.alert=driver.switchTo().alert();
+	}
+	
+	public String getAlertText() {
+		return alert.getText();
+	}
+	
 	public void sendTextToAlert(String text) {
 		driver.switchTo().alert().sendKeys(text);
 	}

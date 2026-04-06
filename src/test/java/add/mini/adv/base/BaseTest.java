@@ -16,7 +16,7 @@ import org.testng.annotations.BeforeMethod;
 public class BaseTest {
 	
 	protected static ThreadLocal<WebDriver> tldriver= new ThreadLocal<>();
-	private static WebDriverWait wait;
+	protected static ThreadLocal<WebDriverWait> tlwait= new ThreadLocal<>();
 	private static Properties config;
 	
 	
@@ -25,10 +25,10 @@ public class BaseTest {
 	}
 	
 	public static WebDriverWait waitutil() {
-		if(wait==null) {
-		 wait = new WebDriverWait(getDriver(),Duration.ofSeconds(5));
+		if(tlwait.get()==null) {
+		 tlwait.set(new WebDriverWait(getDriver(),Duration.ofSeconds(5)));
 		}
-		return wait;
+		return tlwait.get();
 	}
 	
 	public static String loadConfig(String key) {
@@ -75,6 +75,9 @@ public class BaseTest {
 		if(getDriver()!=null) {
 			getDriver().quit();
 			tldriver.remove();
+		}
+		if(tlwait.get()!=null) {
+			tlwait.remove();
 		}
 	}
 }

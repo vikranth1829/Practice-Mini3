@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import add.mini.adv.base.BaseTest;
 
 public class javascript_alert_page {
-	private WebDriver driver = BaseTest.getDriver();
+	private WebDriver driver;
 	private WebDriverWait wait;
 
 	private By jsAlert = By.cssSelector("button[onclick^='jsAlert']");

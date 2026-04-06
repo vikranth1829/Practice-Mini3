@@ -15,17 +15,24 @@ import org.testng.annotations.BeforeMethod;
 
 public class BaseTest {
 	
-	private static WebDriver driver;
+	protected static ThreadLocal<WebDriver> tldriver= new ThreadLocal<>();
 	private static WebDriverWait wait;
 	private static Properties config;
-	private static ThreadLocal<WebDriver> tldriver= new ThreadLocal<>();
+	
 	
 	public static WebDriver getDriver() {
 		return tldriver.get();
 	}
 	
 	public static WebDriverWait waitutil() {
-		return wait = new WebDriverWait(tldriver.get(),Duration.ofSeconds(5));
+		if(wait==null) {
+		 wait = new WebDriverWait(getDriver(),Duration.ofSeconds(5));
+		}
+		return wait;
+	}
+	
+	public static String loadConfig(String key) {
+		return config.getProperty(key);
 	}
 	
 	@BeforeMethod
@@ -39,7 +46,7 @@ public class BaseTest {
 		String baseUrl = loadConfig("baseUrl");
 		String browserName = loadConfig("browser");
 		
-		if(browserName.equals(null)||browserName==null) {
+		if(browserName==null||browserName.trim().isEmpty()) {
 			browserName="chrome";
 		}
 		switch(browserName.toLowerCase())
@@ -55,16 +62,17 @@ public class BaseTest {
 		case "firefox":
 			tldriver.set(new FirefoxDriver());
 			break;
+		default:
+			tldriver.set(new ChromeDriver());
 		}
-	}
-	
-	public static String loadConfig(String key) {
-		return config.getProperty(key);
+		
+		getDriver().manage().window().maximize();
+		//getDriver().get(baseUrl);
 	}
 	
 	@AfterMethod
 	public void tearDown() {
-		if(!getDriver().equals(null)||getDriver()!=null) {
+		if(getDriver()!=null) {
 			getDriver().quit();
 			tldriver.remove();
 		}

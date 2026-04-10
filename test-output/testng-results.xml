@@ -2,82 +2,82 @@
 <testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-10T23:09:25 IST" name="Suite" finished-at="2026-04-10T23:10:36 IST" duration-ms="71468">
+  <suite started-at="2026-04-10T23:15:46 IST" name="Parallel Suite" finished-at="2026-04-10T23:16:24 IST" duration-ms="38257">
     <groups>
     </groups>
-    <test started-at="2026-04-10T23:09:25 IST" name="Test" finished-at="2026-04-10T23:10:36 IST" duration-ms="71468">
+    <test started-at="2026-04-10T23:15:46 IST" name="Test" finished-at="2026-04-10T23:16:24 IST" duration-ms="38257">
       <class name="add.mini.adv.test.WindowsTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:add.mini.adv.test.WindowsTest@4201c465]" started-at="2026-04-10T23:10:23 IST" name="setup" finished-at="2026-04-10T23:10:24 IST" duration-ms="1204" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:add.mini.adv.test.WindowsTest@4201c465]" started-at="2026-04-10T23:15:46 IST" name="setup" finished-at="2026-04-10T23:15:57 IST" duration-ms="10497" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="windowTestcase()[pri:0, instance:add.mini.adv.test.WindowsTest@4201c465]" started-at="2026-04-10T23:10:24 IST" name="windowTestcase" finished-at="2026-04-10T23:10:36 IST" duration-ms="12351" status="PASS">
+        <test-method signature="windowTestcase()[pri:0, instance:add.mini.adv.test.WindowsTest@4201c465]" started-at="2026-04-10T23:15:57 IST" name="windowTestcase" finished-at="2026-04-10T23:16:10 IST" duration-ms="12894" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- windowTestcase -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:add.mini.adv.test.WindowsTest@4201c465]" started-at="2026-04-10T23:10:36 IST" name="tearDown" finished-at="2026-04-10T23:10:36 IST" duration-ms="155" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:add.mini.adv.test.WindowsTest@4201c465]" started-at="2026-04-10T23:16:10 IST" name="tearDown" finished-at="2026-04-10T23:16:11 IST" duration-ms="1253" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- add.mini.adv.test.WindowsTest -->
-      <class name="add.mini.adv.test.FileUploadTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:add.mini.adv.test.FileUploadTest@5965d37]" started-at="2026-04-10T23:10:09 IST" name="setup" finished-at="2026-04-10T23:10:10 IST" duration-ms="783" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="uploadFile()[pri:0, instance:add.mini.adv.test.FileUploadTest@5965d37]" started-at="2026-04-10T23:10:10 IST" name="uploadFile" finished-at="2026-04-10T23:10:15 IST" duration-ms="5032" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- uploadFile -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:add.mini.adv.test.FileUploadTest@5965d37]" started-at="2026-04-10T23:10:15 IST" name="tearDown" finished-at="2026-04-10T23:10:15 IST" duration-ms="171" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- add.mini.adv.test.FileUploadTest -->
       <class name="add.mini.adv.test.AlertTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:add.mini.adv.test.AlertTest@4681c175]" started-at="2026-04-10T23:09:25 IST" name="setup" finished-at="2026-04-10T23:09:26 IST" duration-ms="1265" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:add.mini.adv.test.AlertTest@4681c175]" started-at="2026-04-10T23:15:46 IST" name="setup" finished-at="2026-04-10T23:15:57 IST" duration-ms="10989" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="jsAlertTest()[pri:0, instance:add.mini.adv.test.AlertTest@4681c175]" started-at="2026-04-10T23:09:26 IST" name="jsAlertTest" finished-at="2026-04-10T23:09:36 IST" duration-ms="9469" status="PASS">
+        <test-method signature="jsAlertTest()[pri:0, instance:add.mini.adv.test.AlertTest@4681c175]" started-at="2026-04-10T23:15:57 IST" name="jsAlertTest" finished-at="2026-04-10T23:16:05 IST" duration-ms="7895" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- jsAlertTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:add.mini.adv.test.AlertTest@4681c175]" started-at="2026-04-10T23:09:36 IST" name="tearDown" finished-at="2026-04-10T23:09:36 IST" duration-ms="159" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:add.mini.adv.test.AlertTest@4681c175]" started-at="2026-04-10T23:16:05 IST" name="tearDown" finished-at="2026-04-10T23:16:10 IST" duration-ms="4719" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:add.mini.adv.test.AlertTest@4681c175]" started-at="2026-04-10T23:09:36 IST" name="setup" finished-at="2026-04-10T23:09:37 IST" duration-ms="766" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:add.mini.adv.test.AlertTest@4681c175]" started-at="2026-04-10T23:16:10 IST" name="setup" finished-at="2026-04-10T23:16:14 IST" duration-ms="3643" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="jsConfirmAlertTest()[pri:0, instance:add.mini.adv.test.AlertTest@4681c175]" started-at="2026-04-10T23:09:37 IST" name="jsConfirmAlertTest" finished-at="2026-04-10T23:09:43 IST" duration-ms="6080" status="PASS">
+        <test-method signature="jsConfirmAlertTest()[pri:0, instance:add.mini.adv.test.AlertTest@4681c175]" started-at="2026-04-10T23:16:14 IST" name="jsConfirmAlertTest" finished-at="2026-04-10T23:16:18 IST" duration-ms="4397" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- jsConfirmAlertTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:add.mini.adv.test.AlertTest@4681c175]" started-at="2026-04-10T23:09:43 IST" name="tearDown" finished-at="2026-04-10T23:09:43 IST" duration-ms="131" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:add.mini.adv.test.AlertTest@4681c175]" started-at="2026-04-10T23:16:18 IST" name="tearDown" finished-at="2026-04-10T23:16:18 IST" duration-ms="151" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:add.mini.adv.test.AlertTest@4681c175]" started-at="2026-04-10T23:09:43 IST" name="setup" finished-at="2026-04-10T23:09:44 IST" duration-ms="789" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:add.mini.adv.test.AlertTest@4681c175]" started-at="2026-04-10T23:16:18 IST" name="setup" finished-at="2026-04-10T23:16:19 IST" duration-ms="746" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="jsPromptAlertTest()[pri:0, instance:add.mini.adv.test.AlertTest@4681c175]" started-at="2026-04-10T23:09:44 IST" name="jsPromptAlertTest" finished-at="2026-04-10T23:10:02 IST" duration-ms="17986" status="PASS">
+        <test-method signature="jsPromptAlertTest()[pri:0, instance:add.mini.adv.test.AlertTest@4681c175]" started-at="2026-04-10T23:16:19 IST" name="jsPromptAlertTest" finished-at="2026-04-10T23:16:24 IST" duration-ms="5274" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- jsPromptAlertTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:add.mini.adv.test.AlertTest@4681c175]" started-at="2026-04-10T23:10:02 IST" name="tearDown" finished-at="2026-04-10T23:10:02 IST" duration-ms="132" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:add.mini.adv.test.AlertTest@4681c175]" started-at="2026-04-10T23:16:24 IST" name="tearDown" finished-at="2026-04-10T23:16:24 IST" duration-ms="124" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- add.mini.adv.test.AlertTest -->
-      <class name="add.mini.adv.test.IFrameTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:add.mini.adv.test.IFrameTest@7a5ceedd]" started-at="2026-04-10T23:10:15 IST" name="setup" finished-at="2026-04-10T23:10:16 IST" duration-ms="724" status="PASS">
+      <class name="add.mini.adv.test.FileUploadTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:add.mini.adv.test.FileUploadTest@5965d37]" started-at="2026-04-10T23:15:46 IST" name="setup" finished-at="2026-04-10T23:15:57 IST" duration-ms="10397" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="iFrameTestcase()[pri:0, instance:add.mini.adv.test.IFrameTest@7a5ceedd]" started-at="2026-04-10T23:10:16 IST" name="iFrameTestcase" finished-at="2026-04-10T23:10:22 IST" duration-ms="6908" status="FAIL">
+        <test-method signature="uploadFile()[pri:0, instance:add.mini.adv.test.FileUploadTest@5965d37]" started-at="2026-04-10T23:15:57 IST" name="uploadFile" finished-at="2026-04-10T23:16:10 IST" duration-ms="13165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadFile -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:add.mini.adv.test.FileUploadTest@5965d37]" started-at="2026-04-10T23:16:10 IST" name="tearDown" finished-at="2026-04-10T23:16:11 IST" duration-ms="1004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- add.mini.adv.test.FileUploadTest -->
+      <class name="add.mini.adv.test.IFrameTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:add.mini.adv.test.IFrameTest@7a5ceedd]" started-at="2026-04-10T23:15:46 IST" name="setup" finished-at="2026-04-10T23:15:57 IST" duration-ms="10816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="iFrameTestcase()[pri:0, instance:add.mini.adv.test.IFrameTest@7a5ceedd]" started-at="2026-04-10T23:15:57 IST" name="iFrameTestcase" finished-at="2026-04-10T23:16:06 IST" duration-ms="8736" status="FAIL">
           <exception class="org.openqa.selenium.InvalidElementStateException">
             <message>
               <![CDATA[invalid element state
@@ -85,10 +85,10 @@
 Build info: version: '4.40.0', revision: 'b3333f1'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.29'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [14cf79681fbd9611c919d02db7a5a78e, clearElement {id=f.E0CA2C856719F6A06DD8C3657FACBAFE.d.DED7EE96C175052F9139BF6CA5A12764.e.159}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\vikra\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65466}, goog:processID: 28632, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65466/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (14cf79681fbd9611c919d02db7a5a78e)] -> id: tinymce]
-Session ID: 14cf79681fbd9611c919d02db7a5a78e]]>
+Command: [35fd5d20774a3dd530f90ea160bac30e, clearElement {id=f.7F04435DD0C1F7B6B891448CB79AF9BB.d.C3D51BB3F93C4D47302186FC0A57CF27.e.200}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\vikra\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50219}, goog:processID: 34676, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50219/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (35fd5d20774a3dd530f90ea160bac30e)] -> id: tinymce]
+Session ID: 35fd5d20774a3dd530f90ea160bac30e]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.InvalidElementStateException: invalid element state
@@ -96,10 +96,10 @@ Session ID: 14cf79681fbd9611c919d02db7a5a78e]]>
 Build info: version: '4.40.0', revision: 'b3333f1'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.29'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [14cf79681fbd9611c919d02db7a5a78e, clearElement {id=f.E0CA2C856719F6A06DD8C3657FACBAFE.d.DED7EE96C175052F9139BF6CA5A12764.e.159}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\vikra\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65466}, goog:processID: 28632, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65466/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (14cf79681fbd9611c919d02db7a5a78e)] -> id: tinymce]
-Session ID: 14cf79681fbd9611c919d02db7a5a78e
+Command: [35fd5d20774a3dd530f90ea160bac30e, clearElement {id=f.7F04435DD0C1F7B6B891448CB79AF9BB.d.C3D51BB3F93C4D47302186FC0A57CF27.e.200}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\vikra\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50219}, goog:processID: 34676, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50219/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (35fd5d20774a3dd530f90ea160bac30e)] -> id: tinymce]
+Session ID: 35fd5d20774a3dd530f90ea160bac30e
 at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -123,47 +123,37 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.InvalidElementStateException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iFrameTestcase -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:add.mini.adv.test.IFrameTest@7a5ceedd]" started-at="2026-04-10T23:10:22 IST" name="tearDown" finished-at="2026-04-10T23:10:23 IST" duration-ms="162" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:add.mini.adv.test.IFrameTest@7a5ceedd]" started-at="2026-04-10T23:16:06 IST" name="tearDown" finished-at="2026-04-10T23:16:10 IST" duration-ms="3886" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- add.mini.adv.test.IFrameTest -->
       <class name="add.mini.adv.test.DragAndDropTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:add.mini.adv.test.DragAndDropTest@673fdbce]" started-at="2026-04-10T23:10:02 IST" name="setup" finished-at="2026-04-10T23:10:03 IST" duration-ms="817" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:add.mini.adv.test.DragAndDropTest@673fdbce]" started-at="2026-04-10T23:15:46 IST" name="setup" finished-at="2026-04-10T23:15:57 IST" duration-ms="10741" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="dragAndDrop()[pri:0, instance:add.mini.adv.test.DragAndDropTest@673fdbce]" started-at="2026-04-10T23:10:03 IST" name="dragAndDrop" finished-at="2026-04-10T23:10:09 IST" duration-ms="6033" status="PASS">
+        <test-method signature="dragAndDrop()[pri:0, instance:add.mini.adv.test.DragAndDropTest@673fdbce]" started-at="2026-04-10T23:15:57 IST" name="dragAndDrop" finished-at="2026-04-10T23:16:10 IST" duration-ms="12991" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dragAndDrop -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:add.mini.adv.test.DragAndDropTest@673fdbce]" started-at="2026-04-10T23:10:09 IST" name="tearDown" finished-at="2026-04-10T23:10:09 IST" duration-ms="242" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:add.mini.adv.test.DragAndDropTest@673fdbce]" started-at="2026-04-10T23:16:10 IST" name="tearDown" finished-at="2026-04-10T23:16:11 IST" duration-ms="835" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- add.mini.adv.test.DragAndDropTest -->
     </test> <!-- Test -->
-  </suite> <!-- Suite -->
+  </suite> <!-- Parallel Suite -->
 </testng-results>

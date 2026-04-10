@@ -2,6 +2,7 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite started-at="2026-04-10T20:17:43 IST" name="Default suite" finished-at="2026-04-10T20:17:57 IST" duration-ms="14317">
     <groups>
     </groups>
@@ -20,6 +21,26 @@
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- add.mini.adv.test.FileUploadTest -->
+=======
+  <suite started-at="2026-04-10T22:17:37 IST" name="Default suite" finished-at="2026-04-10T22:17:52 IST" duration-ms="14959">
+    <groups>
+    </groups>
+    <test started-at="2026-04-10T22:17:37 IST" name="Default test" finished-at="2026-04-10T22:17:52 IST" duration-ms="14959">
+      <class name="add.mini.adv.test.WindowsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:add.mini.adv.test.WindowsTest@6caf0677]" started-at="2026-04-10T22:17:38 IST" name="setup" finished-at="2026-04-10T22:17:41 IST" duration-ms="3223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="windowTestcase()[pri:0, instance:add.mini.adv.test.WindowsTest@6caf0677]" started-at="2026-04-10T22:17:41 IST" name="windowTestcase" finished-at="2026-04-10T22:17:52 IST" duration-ms="11339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowTestcase -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:add.mini.adv.test.WindowsTest@6caf0677]" started-at="2026-04-10T22:17:52 IST" name="tearDown" finished-at="2026-04-10T22:17:52 IST" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- add.mini.adv.test.WindowsTest -->
+>>>>>>> b1f768a (Update few Test files)
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

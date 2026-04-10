@@ -30,23 +30,12 @@ public class windows_page {
 		wait.until(ExpectedConditions.elementToBeClickable(clickHereButton)).click();
 	}
 
-	public String getCurentWindowTitle() {
+	public String getCurrentWindowTitle() {
 		return driver.getTitle();
 	}
 
 	public void switchBackToMainWindow(String mainWindow) {
 		driver.switchTo().window(mainWindow);
 	}
-
-	public void switchToNewWindow() {
-		String mainHandle = driver.getWindowHandle(); //Will get the current window handle and store in the String(ID)
-		Set<String> allhandle = driver.getWindowHandles();
-		
-		for(String handle : allhandle) {
-		if(!handle.equals(mainHandle)) {
-			driver.switchTo().window(handle);
-			break;
-		}
-		}
-	}
+	
 }

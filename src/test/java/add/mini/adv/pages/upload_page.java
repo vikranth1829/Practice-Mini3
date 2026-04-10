@@ -4,6 +4,7 @@ import java.nio.file.Paths;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -14,7 +15,7 @@ public class upload_page {
 	private WebDriver driver = BaseTest.getDriver();
 	private WebDriverWait wait;
 
-	private By chooseFilebutton = By.id("input[id='file-upload']");
+	private By chooseFilebutton = By.id("file-upload");
 	private By uploadButton = By.id("file-submit");
 	private By uploadedfilelabel = By.id("uploaded-files");
 
@@ -28,15 +29,16 @@ public class upload_page {
 		driver.get(baseUrl);
 	}
 
-	public void inputFile(String path) {
-		String relativefilepath = BaseTest.loadConfig(path);
+	public void inputFile() {
+		String relativefilepath = BaseTest.loadConfig("fileUrl");
 		String absolutefilepath = Paths.get(relativefilepath).toAbsolutePath().toString();
-		wait.until(ExpectedConditions.visibilityOfElementLocated(chooseFilebutton));
-		driver.findElement(chooseFilebutton).sendKeys(absolutefilepath);
+		WebElement fileupload = wait.until(ExpectedConditions.visibilityOfElementLocated(chooseFilebutton));
+		//wait.until(ExpectedConditions.elementToBeClickable(chooseFilebutton)).click();
+		fileupload.sendKeys(absolutefilepath);
 	}
 
 	public void clickUploadButton() {
-		wait.until(ExpectedConditions.elementToBeClickable(uploadButton));
+		wait.until(ExpectedConditions.elementToBeClickable(uploadButton)).click();
 	}
 	
 	public String getUploadedFileLabel() {

@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="add.mini.adv.test.AlertTest">
+      <class name="add.mini.adv.test.FileUploadTest">
         <methods>
-          <include name="jsPromptAlertTest"/>
-          <include name="jsConfirmAlertTest"/>
+          <include name="uploadFile"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- add.mini.adv.test.AlertTest -->
+      </class> <!-- add.mini.adv.test.FileUploadTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
